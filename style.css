@@ -1,0 +1,41 @@
+body {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 150px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+    border-radius: 20px;
+    margin: 20px;
+}
+.draggable-item {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #000000;
+    box-shadow: 0 7px 15px rgba(0,0,0,0.1);
+    transition: 0.5s;
+}
+.text-to-appear {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 20%;
+    display: none;
+}
+.hide {
+    display: none;
+}
+
+.hovered {
+    background: #fbabfd;
+}
