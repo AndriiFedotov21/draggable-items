@@ -23,6 +23,7 @@ itemHolders.forEach( (item) => {
     }
     item.ondrop = function () {
         text.style = `display: block;`
+        this.classList.remove('hovered')
         this.append(draggableItem)
     }
 })
